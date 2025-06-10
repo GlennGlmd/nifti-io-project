@@ -1,0 +1,28 @@
+# === Build artifacts ===
+/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.log
+
+# === NIfTI temporary/compressed files ===
+*.nii.gz
+
+# === macOS ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+*.user
+*.suo
+*.vcxproj*
